@@ -1,5 +1,5 @@
 context:
-  version: "0.6.0"
+  version: "0.7.0"
 
 package:
   name: django-ltree
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/d/django-ltree/django_ltree-${{ version }}.tar.gz
-  sha256: 8ed3d92eb4b1e2cc28082ec96a965cbc302c6ac9080778536d93b18861dfe122
+  sha256: 22f29f8279e948cb57ed47f6e4379dfff16b038ce648c780b8ff3fe634ab166d
 
 build:
   noarch: python
@@ -26,7 +26,7 @@ requirements:
 tests:
   - python:
       imports:
-      - django_ltree
+        - django_ltree
       pip_check: true
       python_version: ${{ python_min }}.*
 
