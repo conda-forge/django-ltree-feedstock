@@ -1,5 +1,5 @@
 context:
-  version: "0.7.0"
+  version: "0.8.0"
   python_min: "3.11"
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/d/django-ltree/django_ltree-${{ version }}.tar.gz
-  sha256: 22f29f8279e948cb57ed47f6e4379dfff16b038ce648c780b8ff3fe634ab166d
+  sha256: 0c66b6f50adf05046c26eaa4f00183825b2f940136f61c6787f006f69d6e68d9
 
 build:
   noarch: python
