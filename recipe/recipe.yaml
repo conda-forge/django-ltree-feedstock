@@ -17,11 +17,11 @@ build:
 requirements:
   host:
     - python ${{ python_min }}.*
-    - setuptools >=77.0.3
+    - hatchling
     - pip
   run:
     - python >=${{ python_min }}
-    - django >=2.2
+    - django >=5.2
 
 tests:
   - python:
